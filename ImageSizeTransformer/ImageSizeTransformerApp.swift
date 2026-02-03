@@ -1,17 +1,12 @@
-//
-//  ImageSizeTransformerApp.swift
-//  ImageSizeTransformer
-//
-//  Created by Kircérta on 2026-01-30.
-//
-
 import SwiftUI
 
 @main
-struct ImageSizeTransformerApp: App {
+struct BatchResizerApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
+        .windowStyle(.hiddenTitleBar)
+        .windowResizability(.contentSize)
     }
 }
